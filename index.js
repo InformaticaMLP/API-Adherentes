@@ -9,7 +9,7 @@ const port = process.env.PORT || 8080;
 // Middleware para permitir solicitudes JSON y CORS
 app.use(express.json());
 app.use(cors({
-    origin: 'https://mi-api-adherentes-b6ezbvgkc0buancp.brazilsouth-01.azurewebsites.net', // Cambia esto a tu URL de ngrok
+    origin: 'https://api-adherentes-gqhkf8f5dvh8gdbx.brazilsouth-01.azurewebsites.net/',
 }));
 
 // Configuración de la conexión a la base de datos
